@@ -14,3 +14,8 @@ Program starts by reading a binary file that it gets from argv[1] which contains
 * **void deleteEntry(char *name)**: Removes the entry with the specified name from the list, if found. If the name does not exist in the list, print an appropriate message.
 * **void printPhoneDirectory()**: Writes the contents of the Phone Directory to standard output. This output should be in sorted alphabetical order of name.
 * **void saveAndExit()**: Writes the contents of the Phone Directory to the same data file you used for loading entries initially.
+
+* <a href="https://scan.coverity.com/projects/oykunehir-doublyconnectedlinkedlist">
+  <img alt="Coverity Scan Build Status"
+       src="https://scan.coverity.com/projects/28697/badge.svg"/>
+</a>
